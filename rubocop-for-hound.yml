@@ -219,7 +219,7 @@ Style/GlobalVars:
 Style/GuardClause:
   Description: Check for conditionals that can be replaced with guard clauses
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#no-nested-conditionals
-  Enabled: false
+  Enabled: true
   MinBodyLength: 1
 
 Style/HashSyntax:
@@ -235,7 +235,7 @@ Style/IfUnlessModifier:
   Description: Favor modifier if/unless usage when you have a single-line body.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#if-as-a-modifier
   Enabled: false
-  MaxLineLength: 80
+  MaxLineLength: 100
 
 Style/IndentationWidth:
   Description: Use 2 spaces for indentation.
@@ -263,7 +263,7 @@ Style/LambdaCall:
 Style/Next:
   Description: Use `next` to skip iteration instead of a condition at the end.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#no-nested-conditionals
-  Enabled: false
+  Enabled: true
   EnforcedStyle: skip_modifier_ifs
   MinBodyLength: 3
   SupportedStyles:
@@ -404,7 +404,7 @@ Style/SingleLineBlockParams:
 Style/SingleLineMethods:
   Description: Avoid single-line methods.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#no-single-line-methods
-  Enabled: false
+  Enabled: true
   AllowIfMethodIsEmpty: true
 
 Style/StringLiterals:
@@ -536,7 +536,7 @@ Style/WhileUntilModifier:
   Description: Favor modifier while/until usage when you have a single-line body.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#while-as-a-modifier
   Enabled: false
-  MaxLineLength: 80
+  MaxLineLength: 100
 
 Style/WordArray:
   Description: Use %w or %W for arrays of words.
@@ -565,10 +565,10 @@ Metrics/CyclomaticComplexity:
   Enabled: false
   Max: 6
 Metrics/LineLength:
-  Description: Limit lines to 80 characters.
+  Description: Limit lines to 100 characters.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#80-character-limits
   Enabled: true
-  Max: 80
+  Max: 100
   AllowURI: true
   URISchemes:
   - http
@@ -664,7 +664,7 @@ Rails/Validation:
 
 Style/InlineComment:
   Description: Avoid inline comments.
-  Enabled: false
+  Enabled: true
 
 Style/MethodCalledOnDoEndBlock:
   Description: Avoid chaining a method call on a do...end block.
@@ -926,7 +926,7 @@ Style/NilComparison:
 Style/Not:
   Description: Use ! instead of not.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#bang-not-not
-  Enabled: false
+  Enabled: true
 
 Style/OneLineConditional:
   Description: Favor the ternary operator(?:) over if/then/else/end constructs.
