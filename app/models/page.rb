@@ -50,7 +50,7 @@ class Page < ActiveRecord::Base
                  uniq.sort
 
     # damn long line
-    type3 = Page.where(gender: :male).includes(:users).pluck(:id).uniq.sort.just.reach.column.aaa.101
+    type3 = Page.where(gender: :male).includes(:users).pluck(:id).uniq.sort.just.reach.column.aaaaaaa
 
     # indent
     method_a(
