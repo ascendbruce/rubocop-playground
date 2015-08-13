@@ -1,0 +1,7 @@
+# Configurable options and examples:
+#   https://github.com/bbatsov/rubocop/blob/master/config/default.yml
+
+# How to use .rubocop_todo.yml
+#   https://github.com/bbatsov/rubocop#automatically-generated-configuration
+
+inherit_from: .rubocop_todo.yml
