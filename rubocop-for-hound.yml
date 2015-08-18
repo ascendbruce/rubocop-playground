@@ -594,7 +594,7 @@ Metrics/PerceivedComplexity:
 Lint/AssignmentInCondition:
   Description: Don't use assignment in conditions.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#safe-assignment-in-condition
-  Enabled: false
+  Enabled: true
   AllowSafeAssignment: true
 
 Lint/EndAlignment:
