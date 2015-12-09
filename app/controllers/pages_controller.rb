@@ -5,6 +5,10 @@ class PagesController < ApplicationController
   # GET /pages.json
   def index
     @pages = Page.all
+
+    @pages.find &:blank?
+
+    @pages.detect &:blank?
   end
 
   # GET /pages/1
