@@ -14,5 +14,6 @@ Style/CollectionMethods:
     collect: map
     collect!: map!
     detect: find
+    find:
     find_all: select
     inject: reduce
