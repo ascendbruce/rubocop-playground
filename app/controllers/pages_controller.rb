@@ -3,6 +3,10 @@ class PagesController < ApplicationController
 
   def index
     @pages = Page.all
+
+    @pages.find &:blank?
+
+    @pages.detect &:blank?
   end
 
   def show
